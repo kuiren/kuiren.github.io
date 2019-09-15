@@ -62,7 +62,8 @@
                             <a class="dropdown-toggle" data-toggle="dropdown" href="#">
                                 Home<span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li><a onclick="javascript:reset_menus();$('#tab-intro-content').show();" href="#intro">Biography</a></li>
+                                <li><a onclick="javascript:reset_menus();$('#tab-intro-content').show();" href="#bio">Biography</a></li>
+                                <li><a onclick="javascript:reset_menus();$('#tab-intro-content').show();" href="#education">Education</a></li>
                             </ul>
                         </li>
                         <li class="dropdown">
@@ -111,10 +112,10 @@
                     <a target="_blank" href="images/kuiren.png">
                         <img id="mobile-img" src="images/kuiren.png" width="200" border="0" height="250" alt=""></a>
                 </div>
-                <div align="left" class="col-md-4">
+                <div align="left" class="col-md-5">
                     <h2>Kui Ren</h2>
                     <h4>Professor<br><br></a>
-                        <a href="http://www.en.cs.zju.edu.cn/">School of Computer Science</a><br>
+                        <a href="http://www.en.cs.zju.edu.cn/">School of Computer Science and Technology</a><br>
                         <a href="https://icsr.zju.edu.cn/">School of Cyber Science and Technology</a><br>
                         <a href="http://zju.edu.cn/english/">Zhejiang University</a><br>
                         <i class="fas fa-envelope"></i><script language="JavaScript">
@@ -122,11 +123,12 @@
                             document.write("&nbsp;");
                             spiderjam('kuiren','zju.edu.cn');
                             -->
-                        </script><br/>
+                        </script><br>
                         <i class="fas fa-map-marker-alt"></i>&nbsp;&nbsp;<a target="_blank" href="https://goo.gl/maps/BL3Qh5sxttd8ReUk6">Hangzhou, Zhejiang, China</a><br>
+                        <br>
                         <table>
                             <tr><a href="https://scholar.google.com/citations?user=uuQA_rcAAAAJ&hl=en" target="_blank"><i class="ai ai-google-scholar-square ai-2x"></i></a></tr>
-                            <tr>&nbsp;&nbsp;&nbsp;</tr>
+                            <tr>&nbsp;&nbsp;</tr>
                             <tr><a href="https://dblp.org/pers/hd/r/Ren_0001:Kui" target="_blank"><i class="ai ai-dblp-square ai-2x"></i></a></i></tr>
                         </table>
                     </h4>
@@ -137,7 +139,7 @@
         </section>
         
         <!-- Home Section -->
-        <section name="intro" id="intro">
+        <section name="bio" id="bio">
             <div class="container lead">
                 <div style="text-align: left; margin-top:10px" class="col-md-12">
                     <!--<h2>Welcome!</h2>-->
@@ -154,6 +156,28 @@
 
                     </div>
                     
+                </div>
+            </div>
+        </section>
+
+        <!-- Awards Section -->
+        <section  name="education" id="education">
+            <div class="container lead">
+                <div style="text-align: left; margin-top:10px" class="col-md-12">
+                    
+                    <b class="noshow" style="display:none;" id="tab-6">
+                        <button class="btn btn-default btn-lg btn-block"  style="display: block; width: 100%;" onclick="javascript:$('#tab-awards-content').toggle();">Awards  <span class="glyphicon glyphicon-chevron-down"></span></button>
+                    </b>
+                    <div class="allshow" style="display:none;" id="tab-awards-content">
+                        
+                        <hr class="star-primary">
+                        <h2>Education</h2>
+                        <ul>
+                            <li>Ph.D in Electrical and Computer Engineering, Worcester Polytechnic Institute, USA, 2007</li>
+                            <li>M.Eng in Materials Engineering, Zhejiang University, China, 2001</li>
+                            <li>B.Eng in Chemical Engineering, Zhejiang University, China, 1998</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </section>
@@ -206,32 +230,17 @@
                          <hr class="star-primary">
                          <h2>Awards and Honors</h2>
                          <ul>
-                             <li>IEEE Fellow</li>
-                             <li>ACM Distinguished Member</li>
+                             <li>SUNY Empire Innovation Professor, University at Buffalo, State University of New York, 2017</li>
+                             <li>Best Paper Award, IEEE/ACM International Symposium on Quality of Service (IWQoS'17), Vilanova, Barcelona, Spain, June 14-16, 2017</li>
+                             <li>Best Student Paper Award, The 37th IEEE International Conference on Distributed Computing Systems (ICDCS'17), Atlanta, GA, June 5-8, 2017</li>
+                             <li>Technical Recognition Award, IEEE Communications & Information Security Technical Committee (CISTC), 2017</li>
+                             <li>Exceptional Scholar Award for Sustained Achievement, State University of New York, Buffalo, 2016</li>
+                             <li>Fellow of IEEE (elevated within 8 years after his Ph.D, one of the quickest in IEEE history), 2015</li>
                          </ul>
                      </div>
                  </div>
              </div>
          </section>
-        
-        <!-- Students Alumni Section -->
-        <section name="systems" id="systems">
-            <div class="container lead">
-                <div style="text-align: left; margin-top:10px" class="col-md-12">
-                    
-                    <b class="noshow" style="display:none;" id="tab-4">
-                        <button class="btn btn-default btn-lg btn-block"  style="display: block; width: 100%;" onclick="javascript:$('#tab-systems-content').toggle();">Systems  <span class="glyphicon glyphicon-chevron-down"></span></button>
-                    </b>
-                    
-                    <div class="allshow" style="display:none;" id="tab-systems-content">
-                        <hr class="star-primary">
-                        <h2>Students Alumni</h2>
-                        <ul>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
 
         <!-- Courses Section -->
         <section  name="courses" id="courses">
@@ -245,7 +254,7 @@
                         <hr class="star-primary">
                         <h2>Courses</h2>
                         <ul>
-                            <li>Wireless and IoT Security (2017)</li>
+                            <li>Wireless and IoT Security, Zhejiang University, 2017</li>
                         </ul>
                     </div>
                 </div>
