@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<!-- saved from url=(0047)http://www.acsu.buffalo.edu/~kuiren/alumni.html -->
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+        <title>Kui Ren @Zhejiang University</title>
+        <!-- Bootstrap -->
+        <!-- Custom styles for this template -->
+        <link href="./css/newcss.css" rel="stylesheet">
+        <link href="./css/navbar.css" rel="stylesheet">
+        <link href="./css/custom.css" rel="stylesheet">
+        <link href="./css/label.css" rel="stylesheet">
+        <!-- <link href="./css/bootstrap.min.css" rel="stylesheet"> -->
+        
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="./js/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="./js/bootstrap.min.js"></script>
+        <!---  <script src="js/jquery.dotdotdot.min.js"></script>-->
+        <script src="./js/Markdown.Converter.js"></script>
+        <script src="./js/jquery.scrollbox.js"></script>
+
+
+        <!-- Font Awesome Icons -->
+        <link rel="stylesheet" href="./css/font-awesome.min.css">
+        <link href="./css/custom.css" rel="stylesheet"/>
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="js/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/menucollapse.js"></script>
+        <script type="text/javascript" src="js/arrow78.js"></script>
+        <script type="text/javascript" src="js/custom.js"></script>
+
+    </head>
+
+    <script>  
+        // get markdown content  
+        var alumni_location = 'information/alumni.md';
+        function getText(myUrl){
+            var result = null;
+            $.ajax( { url: myUrl, 
+                      type: 'get', 
+                      dataType: 'html',
+                      async: false,
+                      success: function(data) { result = data; } 
+                    }
+            );
+            FileReady = true;
+            return result;
+        }
+        var alumni_source = getText(alumni_location);
+        var converter = new Markdown.Converter();
+        $(document).ready(function(){
+          $('#alumni').html(converter.makeHtml(alumni_source));
+        })
+      </script>
+
+
+  <body>
+<div class="hr"><hr></div>
+     <div class="container">
+
+        <!-- 导航栏 -->
+        <div class="row">
+            <div class="navbar" role="navigation">
+                <div class="navbar-header logoshow">
+                    <img src="./images/zjulogo.png" class="img-responsive logoshape">
+                </div>
+                <ul class="nav navbar-nav navbar-left">
+                    <li><a href="index.html"><img src="./images/home.png" class="img-responsive">Home</a></li>
+                    <li><a href="research_publications.html"><img src="./images/publication.png"
+                                class="img-responsive"><narv-p>Research Publications</narv-p></a></li>
+                    <li><a href="professional_activities.html"><img src="./images/professional.png"
+                                class="img-responsive"><narv-p>Professional Activities</narv-p></a></li>
+                    <li><a href="students_alumni.html"><img src="./images/students.png" class="img-responsive">Students
+                            Alumni</a></li>
+                    <li><a href="teaching.html"><img src="./images/lecture.png" class="img-responsive">Teaching</a></li>
+                    <li><a href="https://icsr.zju.edu.cn/" target="_blank"><img src="./images/lab.png" class="img-responsive">ICSR</a></li>
+                </ul>
+            </div>
+        </div>
+              
+      <!-- Main component for a primary marketing message or call to action -->
+          <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+          <div class="row">
+
+              <div class="panel panel-primary">
+                  <div class="panel-heading">
+                      <h3 class="panel-title panel-heading-font">Students, Visitors &amp; Alumni</h3>
+                  </div>
+              <div class="panel-body">  
+   <div id="alumni"><h3>Ph.D. Students</h3>
+
+<ul>
+<li>Sixu Piao, PhD Student, Fall 2014 - </li>
+<li>Cheng Song, PhD Student, Co-advised with Prof. Wenyao Xu, Fall 2014 -</li>
+<li>Zhongjie Ba, PhD Student, Fall 2015 - </li>
+<li>Zihao Shan, PhD Student, Spring 2016 -</li>
+<li>Tianhang Zheng, PhD Student, Spring 2017 -</li>
+</ul>
+
+<hr>
+
+<h3>Visitors</h3>
+
+<ul>
+<li>Xiao Zhang, Beijing Jiaotong University, China</li>
+</ul>
+
+<hr>
+
+<h3>Alumni and Past Visitors</h3>
+
+<ul>
+<li>Xiaohui Zhang, Visiting Professor, National Digital Switching System Engineering and Technological R&amp;D Center, China, 2016-2017</li>
+<li>Zhan Qin, PhD, Fall 2012 - Spring 2016, First Employment: <strong>Tenure-track Assistant Professor</strong>, Department of Electrical Engineering, University of Texas at San Antonio, TX</li>
+<li>Chaowen Guan, MS, Spring 2014 - Fall 2016</li>
+<li>Si Chen, PhD, Fall 2012 - Spring 2016, First Employment: <strong>Tenure-track Assistant Professor</strong>, Department of Computer Science, West Chester University, PA</li>
+<li>Jian Weng, Visiting Professor, Jinan University, Mar. 2015 - Mar. 2016</li>
+<li>Minrong Chen, Visiting Professor, Shenzhen University, Mar. 2015 - Mar. 2016</li>
+<li>Zhangjie Fu, Visiting Professor, Nanjing University of Information Science and Technology, Mar. 2015 - Mar. 2016</li>
+<li>Muyuan Li, MS, 2013 - 2015, First Employment: Google </li>
+<li>Hong Tang, Visiting Professor, Beijing Jiaotong University, Jan. 2015 - Jan. 2016</li>
+<li>Zijian Zhang, Visiting Professor, Beijing Institute of Technology, Sept. 2014 - Sept. 2015</li>
+<li>Jia Zhao, Visiting Professor, Beijing Jiaotong University, Sept. 2014 - Sept. 2015 </li>
+<li>Jingbo Yan, Visiting PhD Student, Xidian University, Sept. 2013 - Sept. 2015</li>
+<li>Fangguo Zhang, Visiting Professor, Sun Yat-Sen University, Sept. 2014 - Mar. 2015</li>
+<li><a href="http://iec.qdu.edu.cn/content-68-280-1.html">Jia Yu</a>, Visiting Professor, Qingdao University, Nov. 2013 - Nov. 2014</li>
+<li><a href="http://crypto.di.uoa.gr/~bingsheng/index.html">Bingsheng Zhang</a>, Postdoctoral Researcher, Fall 2012 - 2013, Current Employment: <strong>Lecturer (Assistant Professor)</strong>, Lancaster University, UK  </li>
+<li><a href="http://www.cs.cityu.edu.hk/~kanyang/">Kan Yang</a>, Visiting PhD Student, City University of Hong Kong, 2012 - 2013, Major Award: Outstanding PhD Thesis Award, City University of Hong Kong, Hong Kong, Current Employment: <strong>Tenure-track Assistant Professor</strong>, Department of Computer Science, University of Memphis.   </li>
+<li><a href="http://scholar.google.com/citations?user=CD7ybnAAAAAJ&amp;hl=en">Qian Wang</a>, PhD, 2008-2012, Current Employment: <strong>Professor</strong>, School of Computer Science, Wuhan University, Major Award: 1000 Plan for Young Talents, China, 2012 (中国政府青年千人计划) </li>
+<li><a href="http://www.cs.cityu.edu.hk/~congwang/">Cong Wang</a>, PhD, 2008-2012, First Employment: <strong>Tenure-track Assistant Professor</strong>, Department of Computer Science, City University of Hong Kong, Hong Kong </li>
+<li>Piers Wang, MS, 2012-2013, First Employment: Google </li>
+<li>Zhen Xu, MS, 2011-2013, Current Employment: PhD Student, University at Buffalo </li>
+<li>Kaihe Xu, MS, 2010-2012, Current Employment: Tecent, Inc </li>
+<li>Karthik Mahendra Raje Urs, MS, 2009-2011, First Employment: Software Engineer, Qualcomm </li>
+<li>Simone Astuni, MS, 2007-2008, First Employment: Sales Engineer, Fluidmesh Networks </li>
+</ul></div>
+
+
+        </div>
+
+    </div> <!-- /container -->
+  </div>
+            <!-- 页脚部分 -->
+            <div class="mastfoot">
+                <div class="row">
+                    <div class="inner">
+                        <p>Copyright 2020-2030, @<a href="https://kuiren.org">Kui Ren</a>, All Rights Reserved</p>
+                    </div>
+                </div>
+            </div>
+
+
+  
+</div><div class="xl-chrome-ext-bar" id="xl_chrome_ext_{4DB361DE-01F7-4376-B494-639E489D19ED}" style="display: none;">
+      <div class="xl-chrome-ext-bar__logo"></div>
+
+      <a id="xl_chrome_ext_download" href="javascript:;" class="xl-chrome-ext-bar__option">下载视频</a>
+      <a id="xl_chrome_ext_close" href="javascript:;" class="xl-chrome-ext-bar__close"></a>
+    </div></body></html>

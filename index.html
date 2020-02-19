@@ -1,307 +1,316 @@
 <!DOCTYPE html>
-<html>
-    
-    <head>
-        <meta charset="utf-8"/>
-        <title>Kui Ren @Zhejiang University</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        
-        <!-- Font Awesome Icons -->
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-        
-        <!-- Bootstrap -->
-        <link href="css/bootstrap.min.css" rel="stylesheet"/>
+<!-- saved from url=(0037)https://www.acsu.buffalo.edu/~kuiren/ -->
+<html lang="en">
 
-        <link href="css/custom.css" rel="stylesheet"/>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+    <title>Kui Ren @Zhejiang University</title>
+    <!-- Bootstrap -->
+    <!-- Custom styles for this template -->
+    <link href="./css/newcss.css" rel="stylesheet">
+    <link href="./css/navbar.css" rel="stylesheet">
+    <link href="./css/custom.css" rel="stylesheet">
+    <link href="./css/label.css" rel="stylesheet">
+    <!-- <link href="./css/bootstrap.min.css" rel="stylesheet"> -->
 
-        <!-- Academicons Courtesy of https://jpswalsh.github.io/academicons/ -->
-        <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
-        
-        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-        <!--[if lt IE 9]>
-         <script src="js/html5shiv.js"></script>
-         <script src="js/respond.min.js"></script>
-         <![endif]-->
-        
-        
-        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-        <!-- http://getbootstrap.com/customize/ change "@screen-sm" -> "@screen-md" in @grid-float-breakpoint -->
-        <script src="js/jquery.min.js"></script>
-        <!-- Include all compiled plugins (below), or include individual files as needed -->
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/menucollapse.js"></script>
-        <script type="text/javascript" src="js/arrow78.js"></script>
-        <script type="text/javascript" src="js/custom.js"></script>
-    </head>
-    
-    <body id="page-top" class="index">
-        
-        <!-- Navigation -->
-        <nav class="navbar navbar-default navbar-fixed-top">
-            <div class="container-fluid">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"  data-target="#bs-example-navbar-collapse-2" aria-expanded="false">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="glyphicon glyphicon-search"></span>
-                    </button>
-                    <button id="button2" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <span><a href="#"><img border="0" width="170" src="images/zjulogo.png"/></a></span>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="./js/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="./js/bootstrap.min.js"></script>
+    <!---  <script src="js/jquery.dotdotdot.min.js"></script>-->
+    <script src="./js/Markdown.Converter.js"></script>
+    <script src="./js/jquery.scrollbox.js"></script>
+
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <link href="./css/custom.css" rel="stylesheet" />
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/menucollapse.js"></script>
+    <script type="text/javascript" src="js/arrow78.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
+
+    <script>
+        // get markdown content  
+        // var body_location = 'information/about.md';
+        var news_location = 'information/news1.md';
+        var honors_location = 'information/honors.md';
+
+        function getText(myUrl){
+            var result = null;
+            console.log(myUrl);
+            $.ajax( { url: myUrl, 
+                      type: 'get', 
+                      dataType: 'html',
+                      async: false,
+                      success: function(data) { result = data; } 
+                    }
+            );
+            FileReady = true;
+            return result;
+        }
+ 
+        // var markdown_source = getText(body_location);
+        var news_source = getText(news_location);
+        var honors_source = getText(honors_location);
+        var converter = new Markdown.Converter();
+
+
+
+        $(document).ready(function(){
+          var news_data = converter.makeHtml(news_source);
+          var news_data_all = converter.makeHtml(news_source);
+
+          news_data = news_data.split("<!-- More -->");
+
+        //   $('#preview').html(converter.makeHtml(markdown_source));
+          var news_data_new = converter.makeHtml(news_source);
+          $('#news').html(converter.makeHtml(news_data[0]));
+          $('#honors').html(converter.makeHtml(honors_source));
+          $("#button1").click(function() {
+            console.log('button pressed!!');
+            // xhr = new XMLHttpRequest();
+            // xhr.open('get', news_location);
+            // xhr.send('')
+            // xhr.onload = function(){
+            //     console.log(xhr.responseText)
+            // }
+            // $("#news").replaceWith('111');
+            $("#news").replaceWith(news_data_all);
+            $("#button1").fadeOut().empty();
+          });                 
+        })
+
+        // ajaxBtn.addEventListener('click', function(){
+        //     xhr = new XMLHttpRequest();
+        //     xhr.open('get', news_location);
+        //     xhr.send('')
+        //     xhr.onload = function(){
+        //         console.log(xhr.responseText)
+        //     }
+        //     })
+
+    </script>
+</head>
+
+<body>
+    <div class="hr">
+        <hr>
+    </div>
+    <div class="container">
+
+        <!-- 导航栏 -->
+        <div class="row">
+            <div class="navbar" role="navigation">
+                <div class="navbar-header logoshow">
+                    <img src="./images/zjulogo.png" class="img-responsive logoshape">
                 </div>
-                
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li class="dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                                Home<span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a onclick="javascript:reset_menus();$('#tab-intro-content').show();" href="#bio">Biography</a></li>
-                                <li><a onclick="javascript:reset_menus();$('#tab-intro-content').show();" href="#education">Education</a></li>
-                            </ul>
-                        </li>
-                        <li class="page-scroll">
-                            <a onclick="javascript:reset_menus();$('#tab-publications-content').show();" href="#publications">Publications</a>
-                        </li>
-                        <li class="page-scroll">
-                            <a onclick="javascript:reset_menus();$('#tab-awards-content').show();" href="#awards">Awards</a>
-                        </li>
-                        <li class="page-scroll">
-                            <a onclick="javascript:reset_menus();$('#tab-courses-content').show();" href="#courses">Courses</a>
-                        </li>
-                    </ul>
-                </div><!-- /.navbar-collapse -->
-                
-                <!-- search box submenu -->
-                <div class="collapse" id="bs-example-navbar-collapse-2">
-                    <gcse:search></gcse:search>
+                <ul class="nav navbar-nav navbar-left">
+                    <li><a href="index.html"><img src="./images/home.png" class="img-responsive">Home</a></li>
+                    <li><a href="research_publications.html"><img src="./images/publication.png" class="img-responsive">
+                            <narv-p>Research Publications</narv-p>
+                        </a></li>
+                    <li><a href="professional_activities.html"><img src="./images/professional.png"
+                                class="img-responsive">
+                            <narv-p>Professional Activities</narv-p>
+                        </a></li>
+                    <li><a href="students_alumni.html"><img src="./images/students.png" class="img-responsive">Students
+                            Alumni</a></li>
+                    <li><a href="teaching.html"><img src="./images/lecture.png" class="img-responsive">Teaching</a></li>
+                    <li><a href="https://icsr.zju.edu.cn/" target="_blank"><img src="./images/lab.png"
+                                class="img-responsive">ICSR</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- 导航下主体部分 -->
+        <!-- Main component for a primary marketing message or call to action -->
+        <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+        <div class="container">
+            <div class="row">
+                <!-- 左侧个人信息 -->
+                <div class="col-xs-6 col-md-4" id="info">
+                    <div class="icon"> <img src="./images/kuiren.jpg" class="img-thumbnail img-responsive"></div>
+                    <div class="info">
+                        <h3><strong>Kui Ren, PhD<br></strong></h3>
+                        <h4><strong>Qiushi Chair Professor</strong></h4>
+                        <h4><strong>IEEE Fellow</strong></h4>
+
+                        <h5>
+                            <a href="https://scholar.google.com/citations?user=uuQA_rcAAAAJ&amp;hl=en"
+                                target="_blank"><i class="fa fa-graduation-cap" aria-hidden="true"></i> Google
+                                Scholar</a>
+                            <a id="dblp_link" href="https://dblp.uni-trier.de/pers/hd/r/Ren_0001:Kui" target="_blank"><i
+                                class="fa fa-external-link" aria-hidden="true"></i> DBLP</a>
+                        </h5>
+
+                        <h7>
+                            <a href="http://www.en.cs.zju.edu.cn/" target="_blank">College of Computer Science and
+                                Technology</a><br>
+                            <a href="https://icsr.zju.edu.cn/" target="_blank">School of Cyber Science and
+                                Technology</a><br>
+                            <a href="http://zju.edu.cn/english/" target="_blank">Zhejiang University</a><br>
+                        </h7>
+                        Office: Room 205, KeGong Building, Yuquan campus of ZheJiang University<br>
+                        Tel: 0571-87952558<br>
+                        E-mail: kuiren {{at}] zju.edu.cn<br>
+                    </div>
+                    <br>
+                </div>
+
+                <!-- 右侧信息栏 -->
+                <div class="col-xs-12 col-sm-6 col-md-8">
+
+                    <!-- 招生小贴士 -->
+                    <!--<div class="alert alert-dismissable alert-warning hidden-sm hidden-xs">UbiSeC Lab looks for highly motivated PhD students to join exciting research projects on Cloud Security and Smartphone Security! Please email me or drop by my office to discuss.</div>-->
+
+                    <!-- 词云图 -->
+                    <div id="wordcloud"><img src="./images//wc.png" class="img-responsive"></div>
+                    <div class="panel panel-primary"> 
+                        <div class="panel-body intro">
+
+                            <!-- 个人简介 -->
+                            <div id="preview">
+                                <p>
+                                    Kui Ren is Professor and Associate Dean of College of Computer Science and Technology  at Zhejiang University, where he also directs the Institute of Cyber Science and Technology. Before that, he was SUNY Empire Innovation Professor at State University of New York at Buffalo. He received his PhD degree from Worcester Polytechnic Institute. Kui’s current research interests include Data Security, IoT Security, AI Security, and Privacy. He received IEEE CISTC Technical Recognition Award in 2017, SUNY Chancellor’s Research Excellence Award in 2017, Sigma Xi/IIT Research Excellence Award in 2012, and NSF CAREER Award in 2011. Kui has published more than 300 papers in peer-reviewed journals and conferences and received several Best Paper Awards, including IEEE Globecom’19, ChinaCrypt’18, ACM ASIACCS’18, ICPADS’18, IEEE ICDCS'17, IWQoS'17, and ICNP'11. His H-index is <a href="https://scholar.google.com/citations?user=uuQA_rcAAAAJ&amp;hl=en" target="_blank">67</a>, and his total citation has exceeded <a href="https://scholar.google.com/citations?user=uuQA_rcAAAAJ&amp;hl=en" target="_blank">30,000</a>, according to <a href="https://scholar.google.com/citations?user=uuQA_rcAAAAJ&amp;hl=en" target="_blank">Google Scholar</a> (as of Feb. 2020). Kui is a Fellow of IEEE, a Distinguished Scientist of ACM. He currently serves as an area/associate editor for ACM Trans. On Cyber Physical Systems, IEEE Trans. on Dependable and Secure Computing, IEEE Trans. on Service Computing, IEEE Trans. on Networking, IEEE Trans. on Mobile Computing, IEEE Wireless Communications, IEEE Internet of Things Journal, and Computer Networks.
+                                </p>
+                                <!-- boi from Mr. Lin -->
+
+
+
+
+                            <!-- <p>
+                                Prof. Kui Ren is the Dean of the School of Cyber Science and Technology, the Associate Dean of the School of Computer Science and Technology, and the Executive Dean of the Institute of Computer Innovation Technology of Zhejiang University. He is also named National Distinguished Expert, IEEE Fellow, and ACM Distinguished Member. His work on cloud security, Internet of things security and wireless security have made significant impact. He was SUNY Empire Innovation Professor and the director of the Ubiquitous Security and Privacy Research Laboratory (UbiSeC) in the Department of Computer Science and Engineering, University at Buffalo, State University of New York. He was awarded Achievement Award of IEEE ComSoc, Sustained Achievement Award of exceptional scholar program of Suny Buffalo, NSF youth Achievement Award. He has published more than 260 papers, and cited more than 20 thousand times. He has published frequently in peer-reviewed journal and conference papers. His H-index is <a href="https://scholar.google.com/citations?user=uuQA_rcAAAAJ&amp;hl=en" target="_blank">67</a>, and his total citation has exceeded <a href="https://scholar.google.com/citations?user=uuQA_rcAAAAJ&amp;hl=en" target="_blank">29,000</a>, according to <a href="https://scholar.google.com/citations?user=uuQA_rcAAAAJ&amp;hl=en" target="_blank">Google Scholar</a> (as of Jan. 2020). More than 10 of his publications have been each cited more than 600 times, with the highest exceeding 2,000. He received the Test of Time Paper Award of IEEE INFOCOM’20 and the Best Paper Awards of IEEE Globecom’19, ChinaCrypt’18, ACM ASIACCS’18, ICPADS’18, IEEE ICDCS'17, ACM/IEEE IWQoS'17, IEEE ICNP'11, and two others.
+                            </p>
+
+                            <p>
+                                He has been serving as the TPC co-chairs for many IEEE and ACM conferences. He is invited to serve as Chair of ACM SIGSAC China and serves/has served as associate editors for ACM Transactions on Internet Technology, ACM Transactions on Cyber-Physical Systems, IEEE/ACM Transactions on Networking, ZTE Communications, IEEE Transactions on Service Computing, IEEE Transactions on Dependable and Secure Computing, IEEE Transactions on Mobile Computing, IEEE Transactions on Information Forensics and Security, IEEE Wireless Communications, IEEE Internet of Things Journal, IEEE Transactions on Smart Grid, Oxford The Computer Journal, Elsevier Pervasive and Mobile Computing, SpringerBriefs on Cyber Security Systems and Networks, Chinese Journal of Electronics, Chinese Journal of Network and Information Security, and Chinese Journal of Network and Information Security. Meanwhile, he is a member of the Higher Education Steering Committee of the Ministry of Education, the Deputy Director of Publishing Working Committee of China Computer Federation, a member of the Steering Committee of ACM Asian Computer and Communication Security Conference, and the Executive Director of Zhejiang Digital Economics Association.
+                            </p> -->
+                            </div>
                         </div>
-                
-            </div><!-- /.container-fluid -->
-        </nav>
-        
-        <section>
-            <!-- Place this tag where you want the search results to render -->
-            <gcse:searchresults-only></gcse:searchresults-only>
-                </section>
-        
-        <!-- Home Section -->
-        <section  name="home" id="home" style="margin-top:40px">
-            <div class="container">
-                <div align="left" class="col-md-4">
-                    <a target="_blank" href="images/kuiren.png">
-                        <img id="mobile-img" src="images/kuiren.png" width="200" border="0" height="250" alt=""></a>
-                </div>
-                <div align="left" class="col-md-7">
-                    <h2><strong>Kui Ren</strong></h2>
-                    <h4>Professor<br><br></a>
-                        <a href="http://www.en.cs.zju.edu.cn/">College of Computer Science and Technology</a><br>
-                        <a href="https://icsr.zju.edu.cn/">School of Cyber Science and Technology</a><br>
-                        <a href="http://zju.edu.cn/english/">Zhejiang University</a><br>
-                        <i class="fas fa-envelope"></i><script language="JavaScript">
-                            <!--
-                            document.write("&nbsp;");
-                            spiderjam('kuiren','zju.edu.cn');
-                            -->
-                        </script><br>
-                        <i class="fas fa-map-marker-alt"></i>&nbsp;&nbsp;<a target="_blank" href="https://goo.gl/maps/BL3Qh5sxttd8ReUk6">Hangzhou, Zhejiang, China</a><br>
-                        <br>
-                        <table>
-                            <tr><a href="https://scholar.google.com/citations?user=uuQA_rcAAAAJ&hl=en" target="_blank"><i class="ai ai-google-scholar-square ai-2x"></i></a></tr>
-                            <tr>&nbsp;&nbsp;</tr>
-                            <tr><a href="https://dblp.org/pers/hd/r/Ren_0001:Kui" target="_blank"><i class="ai ai-dblp-square ai-2x"></i></a></i></tr>
-                        </table>
-                    </h4>
-                    
-                </div>
-                
-            </div>
-        </section>
-        
-        <!-- Home Section -->
-        <section name="bio" id="bio">
-            <div class="container lead">
-                <div style="text-align: left; margin-top:10px" class="col-md-12">
-                    <!--<h2>Welcome!</h2>-->
-                    
-                    <b class="noshow" style="display:none;" id="tab-1">
-                        <button class="btn btn-default btn-lg btn-block" style="display: block; width: 100%;" onclick="javascript:$('#tab-intro-content').toggle();">Introduction <span class="glyphicon glyphicon-chevron-down"></span></button>
-                    </b>
-                    
-                    <div class="allshow" style="display:none;" id="tab-intro-content">
-                        <hr class="star-primary">
-                        
-                        <p class="text-justify">
-                            Prof. Kui Ren's work on cloud security, Internet of things security and wireless security have made significant impact. He is the director of <a href="https://icsr.zju.edu.cn/">Institute of Cyberspace Research</a> of Zhejiang University, IEEE Fellow, ACM Distinguished Member. He chaired and participated in projects from NSFC, NSF, US Department of Energy and Air Force Research Laboratory which cost more than $10 million. He was awarded Achievement Award of IEEE ComSoc, Sustained Achievement Award of exceptional scholar program of Suny Buffalo, and  NSF youth Achievement Award. Prof. Kui Ren is internationally recognized for accomplishments in the areas of cloud security and wireless security. He has made many fundamental innovations in both theory and practice from the discipline to the society. His works have significant impact on emerging cloud systems and wireless network technologies. Prof. Kui Ren has published more than 200 papers, and cited more than 20 thousand times. His research results have been widely reported by Xinhua news agency, Scientific American, NSF news, ACM news and other media.
+                    </div> 
+			
+          
+                    <!-- 最新动态 -->
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <h3 class="panel-title panel-heading-font">Latest Update</h3>
+                        </div>
+                        <div class="panel-body">
+                            <div class="more-less">
+                                <div class="more-block"> 
+                                    <div id="news" class="news">
+                                        <ul>
+                                            <li>[Jan. 2020] Kui has received the IEEE INFOCOM <strong>Test of Time Paper Award</strong> 2020!</li>
+                                            <li>[Jan. 2020] Kui is invited to serve as <strong>Chair</strong> of ACM SIGSAC China!</li>
+                                            <li>[Dec. 2019] We received the <strong>Best Paper Award</strong> from 2019 IEEE Global Communications Conference <a href="https://globecom2019.ieee-globecom.org/program/technical-program/best-paper-awards">(GLOBECOM'19) </a></li>
+                                            <li>[Nov. 2019] Congratulations! Guangtong-Zhejiang University Cyberspace Security Joint Laboratory has been established!</li>
+                                            <li>[Nov. 2019] Kui received the <strong>Highly Cited Researchers of the Year Award</strong>, 2019</li>
+                                                <!--来源：<a href="https://recognition.webofsciencegroup.com/awards/highly-cited/2019/">2019 </a>-->
+                                            
+                                            <li>[Oct. 2019] Congratulations! Ant Financial-Zhejiang University Financial Technology Research Center of Data Security and Privacy Protection has been established!</li>
+                                            <li>[Dec. 2018] We received the <strong>Best Paper Award</strong> from the 24th International Conference on Parallel and Distributed Systems<a href="https://icpads.sg/">(ICPADS'18)</a></li>
+                                            <li>[Oct. 2018] We received the <strong>Best Paper Award</strong> from <a href="http://sca.hainan.gov.cn/dt/xwdt/201811/t20181113_2927693.html">ChinaCrypt'18 </a></li>
+                                            <li>[Jun. 2018] Congratulations! Alibaba-Zhejiang University Joint Research Institute of Frontier Technologies(AZFT) has been established!</li>
+                                            <li>[Jun. 2018] We received the <strong>Best Paper Award</strong> from the 2018 Asia Conference on Computer and Communications Security<a href="http://asiaccs2018.org/">(AsiaCCS’18)</a></li>
+                                            
+                                            <li>[Aug. 2017] Kui is named <strong>SUNY Empire Innovation Professor</strong> by University at Buffalo, State University of New York! </li>
+                                            <li>[Aug. 2017] Our research on <strong>voice hacking protection</strong> has been widely reported by the media, including CBS News, Scientific American, ACM TechNews, The Conversation, etc.! </li>
+                                            <li>[Aug. 2017] Kui is invited to join the steering committee of ACM Asia Conference on Computer and Communications Security (AsiaCCS)! </li>
+                                            <li>[Aug. 2017] Kui delivered a <strong>Keynote Talk</strong>, titled "The Security Challenges in the Internet of Things" at <a href="http://icds.gzu.edu.cn/ChinaPrivacy2017/">ChinaPrivacy'17</a>! </li>
+                                            <li>[Jul. 2017] UbiSeC lab got one paper accepted by <a href="https://www.sigsac.org/ccs/CCS2017/">CCS'17</a></li>
+                                            <li>[Jul. 2017] UbiSeC lab received the <strong>Best Paper Award</strong> from <a href="http://iwqos2017.ieee-iwqos.org/">IWQoS'17</a>!</li>
+                                            <li>[Jun. 2017] Our <strong>voice hacking protection</strong> paper received the <strong>Best Student Paper Award</strong> from <a href="http://icdcs2017.gatech.edu/">ICDCS'17</a>!</li>
+                                            <li>[Jun. 2017] Kui delivered a <strong>Keynote Talk</strong>, titled "The Security Challenges in the Internet of Things" at <a href="http://ieee-dsc.org/2017/">IEEE DSC'17</a>! </li>
+                                            <li>[Jun. 2017] UbiSeC lab got one paper accepted by <a href="https://www.sigmobile.org/mobicom/2017/">MobiCom'17</a>!</li>
+                                            <li>[May 2017] Kui delivered an <strong>Invited Talk</strong>, titled "The Security Challenges in the Internet of Things" at <a href="http://www.acsu.buffalo.edu/~kuiren/">Huawei, Shenzhen</a>! </li>
+                                            <li>[Apr. 2017] Kui receives 2017 IEEE CISTC <strong>Technical Recognition Award</strong>, with the citation "for outstanding contributions to cloud security and wireless security"!</li>
+                                            <li>[Mar. 2017] Congratulations to Zhan Qin, who just accepted a <strong>tenure track assistant professor</strong> position from the ECE Department at <strong>University of Texas at San Antonio</strong>!</li>
+                                            <li>[Mar. 2017] Kui is invited to serve as an <strong>Associate Editor</strong> for <strong>IEEE Transactions on Service Computing</strong> (TSC)!</li>
+                                            <li>[Feb. 2017] UbiSeC lab got two full papers and two short papers accepted by <a href="http://icdcs2017.gatech.edu/">ICDCS'17</a>!</li>
+                                            <li>[Feb. 2017] Kui delivered an <strong>Invited Talk</strong>, titled "Exploring Smartphone-based Side-channel Attacks Against 3D Printers" at <strong>Tohoku University</strong>, Sendai, Japan, Feb. 22, 2017! </li>
+                                            <li>[Jan. 2017] Congratulations to Zhan Qin, who just won the "<strong>Best Graduate Research Award</strong>" from the CSE Dept. at UB!</li>
+                                            <li>[Jan. 2017] UbiSeC lab got one paper accepted by <a href="http://fc17.ifca.ai/">FC'17</a>!</li>
+                                            <li>[Jan. 2017] Kui delivered an <strong>Invited Talk</strong>, titled "Towards Secure Search Over Large Encrypted Datasets" at <strong>Tsukuba University</strong>, Tsukuba, Japan!<p></p></li>
+                                        </ul>
+                                    </div>
+                                    <!-- 扩展按钮 -->
+                                    <div id="button1"><code>...</code></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- 最新动态结束 -->
 
-                    </div>
-                    
-                </div>
-            </div>
-        </section>
+                    <!-- 荣誉与获奖 -->
+                    <div class="panel panel-info">
+                        <div class="panel-heading">
+                            <h3 class="panel-title panel-heading-font">Honors &amp; Awards</h3>
+                        </div>
+                        <div class="panel-body">
+                            <div id="honors">
+                                <ul>
+                                    <li>Test of Time Paper Award, 2020 IEEE INFOCOM (paper published in the 2010 proceedings of the IEEE International Conference on Computer Communications), Jan. 20, 2020.
+                                        <!--信息来源网站：https://www.cs.cityu.edu.hk/news/staff_achievements.html#76 ； https://infocom2020.ieee-infocom.org/awards-->
+                                    <li>Best Paper Award, 2019 IEEE Global Communications Conference (GLOBECOM), Hawaii, USA, Dec. 9-13, 2019.</li>
+                                    <li>Highly Cited Researchers of the Year Award, 2019</li>
+                                    <li>Best Paper Award, the 24th International Conference on Parallel and Distributed Systems(ICPADS'18), Sentosa, Singapore, Dec. 11-13, 2018</li>
+                                        <!--信息来源网站：http://www.wikicfp.com/cfp/program?id=1443-->
+                                    <li>Best Paper Award, ChinaCrypt'18, Sichuan, China, Oct. 26-28, 2018</li>
+                                    <li>Best Paper Award, the 13th ACM ASIA Conference on Computer and Communications Security(AsiaCCS'18), Songdo, Korea, Jun. 4–8, 2018</li>
+                                
+                                    <li>SUNY Empire Innovation Professor, University at Buffalo, State University of New York, 2017</li>
+                                    <li>Best Paper Award, IEEE/ACM International Symposium on Quality of Service (IWQoS'17), Vilanova, Barcelona, Spain, June 14-16, 2017</li>
+                                    <li>Best Student Paper Award, The 37th IEEE International Conference on Distributed Computing Systems (ICDCS'17), Atlanta, GA, June 5-8, 2017</li>
+                                    <li>Technical Recognition Award, IEEE Communications & Information Security Technical Committee (CISTC), 2017</li>
+                                    <li>Exceptional Scholar Award for Sustained Achievement, State University of New York, Buffalo, 2016</li>
+                                    <li>Member of Fellows Evaluation Committee, IEEE Computer Society, 2016</li>
+                                    <li>Fellow of IEEE (elevated within 8 years after his Ph.D, one of the quickest in IEEE history), 2015</li>
+                                    <li>SEAS Senior Researcher of the Year Award, SUNY Buffalo, 2015</li>
+                                    <li>Distinguished Lecturer, IEEE Vehicular Technology Society, 2014</li>
+                                    <li>Top Reviewer Meritorious Service Certificate, IEEE Transactions on Parallel and Distributed Systems (TPDS), 2014</li>
+                                    <li>Member of Academic Advisory Committee, School of Computer Science and Technology, Shandong University, China, since 2014</li>
+                                    <li>Early Promotion to Associate Professor with Tenure, Dept. of ECE, Illinois Institute of Technology, 2012</li>
+                                    <li>Sigma Xi Research Excellence Award (Junior Faculty Category), Illinois Institute of Technology, 2012</li>
+                                    <li>National Science Foundation Faculty Early Career Development (CAREER) Award, 2011</li>
+                                    <li>Board Member, Internet Privacy Task Force of Illinois, appointed by Governor Pat Quinn, 2011</li>
+                                    <li>Best Paper Award, the 19th IEEE International Conference on Network Protocols (ICNP'11), Vancouver, BC, Canada, Oct. 17-20, 2011</li>
+                                    <li>Board Member, Internet Privacy Task Force, State of Illinois (Appointed by Then-Governor Pat Quinn), 2011-2012</li>
+                                    <li>Best Paper Award, the 4th International ICST Conference on Communications and Networking in China (Chinacom'09), Xi'an, China, Aug. 26-28, 2009</li>
+                                    <li>Best Paper Award, International Conference on Wireless Algorithms, Systems, and Applications (WASA'06), Xi'an, China, Aug. 15-18, 2006</li>
+                                </ul>
+                            </div><!-- This is for honors -->
+                        </div>
+                    </div><!-- 荣誉与获奖结束 -->
+                </div><!-- 右侧信息栏结束 -->
+            </div><!-- row结束 -->
 
-        <!-- Education Section -->
-        <section  name="education" id="education">
-            <div class="container lead">
-                <div style="text-align: left; margin-top:10px" class="col-md-12">
-                    
-                    <b class="noshow" style="display:none;" id="tab-6">
-                        <button class="btn btn-default btn-lg btn-block"  style="display: block; width: 100%;" onclick="javascript:$('#tab-awards-content').toggle();">Awards  <span class="glyphicon glyphicon-chevron-down"></span></button>
-                    </b>
-                    <div class="allshow" style="display:none;" id="tab-awards-content">
-                        
-                        <hr class="star-primary">
-                        <h3><strong>Education</strong></h3>
-                        <ul>
-                            <li>Ph.D in Electrical and Computer Engineering, Worcester Polytechnic Institute, USA, 2007</li>
-                            <li>M.Eng in Materials Engineering, Zhejiang University, China, 2001</li>
-                            <li>B.Eng in Chemical Engineering, Zhejiang University, China, 1998</li>
-                        </ul>
+            <!-- 页脚部分 -->
+            <div class="mastfoot">
+                <div class="row">
+                    <div class="inner">
+                        <p>Copyright 2020-2030, @<a href="https://kuiren.org">Kui Ren</a>, All Rights Reserved</p>
                     </div>
                 </div>
             </div>
-        </section>
-        
-        <!-- Research Section -->
-        <section  name="publications" id="publications">
-            <div class="container lead">
-                <div style="text-align: left; margin-top:10px" class="col-md-12">
-                    
-                    <b class="noshow" style="display:none;" id="tab-3">
-                        <button class="btn btn-default btn-lg btn-block" style="display: block; width: 100%;" onclick="javascript:$('#tab-publications-content').toggle();">Publications  <span class="glyphicon glyphicon-chevron-down"></span></button>
-                    </b>
-                    <div class="allshow" style="display:none;" id="tab-publications-content">
-                        <hr class="star-primary">
-                        
-                        <h3><strong>Recent Publications</strong>&nbsp;<a href="publications.html" class="btn btn-primary">More&raquo;</a></h3>
-                        <h4>
-                            <span class="label label-success">
-                                <font color=white>Conferences</font>
-                            </span>
-                        </h4>
-                        <ul>
-                            <li>Distributionally Adversarial Attack&nbsp;&nbsp;<a target="_blank" href="https://arxiv.org/pdf/1808.05537.pdf"><i class="far fa-file-pdf"></i></a>
-                                <br>Tianhang Zheng, Changyou Chen, <b>Kui Ren</b>
-                                <br>Proceedings of the AAAI Conference on Artificial Intelligence (<a href="https://aaai.org/Conferences/AAAI-19/">AAAI 2019</a>)</li>
-                            <li>Data Poisoning Attack against Knowledge Graph Embedding&nbsp;&nbsp;<a target="_blank" href="https://arxiv.org/pdf/1904.12052.pdf"><i class="far fa-file-pdf"></i></a>
-                                <br>Hengtong Zhang, Tianhang Zheng, Jing Gao, Chenglin Miao, Lu Su, Yaliang Li, <b>Kui Ren</b>
-                                <br>International Joint Conference on Artificial Intelligence (<a href="https://ijcai19.org">IJCAI 2019</a>)</li>
-                            <li>PeDSS: Privacy Enhanced and Database-Driven Dynamic spectrum Sharing&nbsp;&nbsp;<a target="_blank" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8737630"><i class="far fa-file-pdf"></i></a>
-                                <br>He Li, Yaling Yang, Yanzhi Dou, Jung-Min Jerry Park, <b>Kui Ren</b>
-                                <br>IEEE International Conference on Computer Communications (<a href="https://infocom2019.ieee-infocom.org/">INFOCOM 2019</a>)</li>
-                            <li>Automating CSI Measurement with UAVs: from Problem Formulation to Energy-Optimal&nbsp;&nbsp;<a target="_blank" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8737613"><i class="far fa-file-pdf"></i></a>
-                                <br>Sixu Piao, Zhongjie Ba, Lu Su, Dimitrios Koutsonikolas, Shi Li, <b>Kui Ren</b>
-                                <br>IEEE International Conference on Computer Communications (<a href="https://infocom2019.ieee-infocom.org/">INFOCOM 2019</a>)</li>
-                            <li>FID: Function Modeling-based Data-Independent and Channel-Robust Physical-Layer &nbsp;&nbsp;<a target="_blank" href="https://arxiv.org/pdf/1901.05914.pdf"><i class="far fa-file-pdf"></i></a>
-                                <br>Tianhang Zheng, Zhi Sun, <b>Kui Ren</b>
-                                <br>IEEE International Conference on Computer Communications (<a href="https://infocom2019.ieee-infocom.org/">INFOCOM 2019</a>)</li>
-                        </ul>
-                        <h4>
-                            <span class="label label-primary">
-                                <font color=white>Journals</font>
-                            </span>
-                        </h4>
-                        <ul>
-                            <li>LPPA: Lightweight Privacy-preserving Authentication from Efficient Multi-key Secure Outsourced Computation for Location-based Services in VANETs&nbsp;&nbsp;<a target="_blank" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8736796"><i class="far fa-file-pdf"></i></a>
-                                <br>Jun Zhou, Zhenfu Cao, Zhan Qin, Xiaolei Dong, <b>Kui Ren</b>
-                                <br>In IEEE Transactions on Information Forensics and Security (<a href="https://signalprocessingsociety.org/publications-resources/ieee-transactions-information-forensics-and-security">TIFS 2019</a>)</li>
-                            <li>PriRadar: A Privacy-Preserving Framework for Spatial Crowdsourcing&nbsp;&nbsp;<a target="_blank" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8698883"><i class="far fa-file-pdf"></i></a>
-                                <br>Dong Yuan, Qi Li, Guoliang Lia, Qian Wang, <b>Kui Ren</b>
-                                <br>In IEEE Transactions on Information Forensics and Security (<a href="https://signalprocessingsociety.org/publications-resources/ieee-transactions-information-forensics-and-security">TIFS 2019</a>)</li>
-                            <li>CIM: Camera in Motion for Smartphone Authentication&nbsp;&nbsp;<a target="_blank" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8691573"><i class="far fa-file-pdf"></i></a>
-                                <br>Zhongjie Ba, Zhan Qin, Xinwen Fu, <b>Kui Ren</b>
-                                <br>In IEEE Transactions on Information Forensics and Security (<a href="https://signalprocessingsociety.org/publications-resources/ieee-transactions-information-forensics-and-security">TIFS 2019</a>)</li>
-                            <li>GANobfuscator: Mitigating information leakage under GAN via differential privacy&nbsp;&nbsp;<a target="_blank" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8636556"><i class="far fa-file-pdf"></i></a>
-                                <br>Chugui Xu, Ju Ren, Deyu Zhang, Yaoxue Zhang, Zhan Qin, <b>Kui Ren</b>
-                                <br>In IEEE Transactions on Information Forensics and Security (<a href="https://signalprocessingsociety.org/publications-resources/ieee-transactions-information-forensics-and-security">TIFS 2019</a>)</li>
-                            <li>Dolphin: Real-Time Hidden Acoustic Signal Capture with Smartphones&nbsp;&nbsp;<a target="_blank" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8370653"><i class="far fa-file-pdf"></i></a>
-                                <br>Man Zhou, Qian Wang, <b>Kui Ren</b>, Dimitrios Koutsonikolas, Lu Su, Yanjiao Chen
-                                <br>IEEE Transactions on Mobile Computing (<a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7755">TMC 2019</a>)</li>
-                            <li>TailCutter: Wisely Cutting Tail Latency in Cloud CDNs Under Cost Constraints&nbsp;&nbsp;<a target="_blank" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8789482"><i class="far fa-file-pdf"></i></a>
-                                <br>Yong Cui, Ningwei Dai, Zeqi Lai, Minming Li, Zhenhua Li, Yuming Hu, <b>Kui Ren</b>, Yuchi Chen
-                                <br>IEEE/ACM Transactions on Networking (<a href="https://ton.lids.mit.edu/">TON 2019</a>)</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
-         
-         <!-- Awards Section -->
-         <section  name="awards" id="awards">
-             <div class="container lead">
-                 <div style="text-align: left; margin-top:10px" class="col-md-12">
-                     
-                     <b class="noshow" style="display:none;" id="tab-6">
-                         <button class="btn btn-default btn-lg btn-block"  style="display: block; width: 100%;" onclick="javascript:$('#tab-awards-content').toggle();">Awards  <span class="glyphicon glyphicon-chevron-down"></span></button>
-                     </b>
-                     <div class="allshow" style="display:none;" id="tab-awards-content">
-                         
-                         <hr class="star-primary">
-                         <h3><strong>Awards and Honors</strong>&nbsp;<a href="awards.html" class="btn btn-primary">More&raquo;</a></h3></h3>
-                         <ul>
-                            <li>SUNY Empire Innovation Professor, University at Buffalo, State University of New York, 2017</li>
-                            <li>Best Paper Award, IEEE/ACM International Symposium on Quality of Service (IWQoS'17), Vilanova, Barcelona, Spain, June 14-16, 2017</li>
-                            <li>Best Student Paper Award, The 37th IEEE International Conference on Distributed Computing Systems (ICDCS'17), Atlanta, GA, June 5-8, 2017</li>
-                            <li>Technical Recognition Award, IEEE Communications & Information Security Technical Committee (CISTC), 2017</li>
-                            <li>Exceptional Scholar Award for Sustained Achievement, State University of New York, Buffalo, 2016</li>
-                            <li>Member of Fellows Evaluation Committee, IEEE Computer Society, 2016</li>
-                            <li>Fellow of IEEE (elevated within 8 years after his Ph.D, one of the quickest in IEEE history), 2015</li>
-                            <li>SEAS Senior Researcher of the Year Award, SUNY Buffalo, 2015</li>
-                         </ul>
-                     </div>
-                 </div>
-             </div>
-         </section>
-
-        <!-- Courses Section -->
-        <section  name="courses" id="courses">
-            <div class="container lead">
-                <div style="text-align: left; margin-top:10px" class="col-md-12">
-                    
-                    <b class="noshow" style="display:none;" id="tab-5">
-                        <button class="btn btn-default btn-lg btn-block"  style="display: block; width: 100%;" onclick="javascript:$('#tab-courses-content').toggle();">Courses  <span class="glyphicon glyphicon-chevron-down"></span></button>
-                    </b>
-                    <div class="allshow" style="display:none;" id="tab-courses-content">
-                        <hr class="star-primary">
-                        <h3><strong>Courses</strong>&nbsp;<a href="courses.html" class="btn btn-primary">More&raquo;</a></h3>
-                        <ul>
-                            <li>Wireless and IoT Security, Zhejiang University, 2018-2019</li>                            
-                            <li>Wireless and IoT Security, Zhejiang University, 2017-2018</li>
-                            <li>CSE 706 Selected Topic in IoT Security, University at Buffalo, State University of New York, Fall 2016</li>
-                            <li>CSE 706 Selected Topic in Privacy and Security, University at Buffalo, State University of New York, Fall 2015</li>
-                            <li>CSE 664 Applied Cryptography and Computer Security, University at Buffalo, State University of New York, Spring 2015</li>
-                            <li>CSE 664 Applied Cryptography and Computer Security, University at Buffalo, State University of New York, Spring 2014</li>
-                            <li>CSE 706 Privacy in Emerging Applications, University at Buffalo, State University of New York, Fall 2013</li>
-                            <li>CSE 241 Digital Systems (Undergraduate Course), University at Buffalo, State University of New York, Fall 2012</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <button><a href="https://evence666.github.io/">test</a></button>
-        </section>
-        
-        <hr class="star-primary">
-        <footer>
-            <small>
-            <center>
-                © 2019 | <a href="https://kuiren.org">Kui Ren</a>. Credits: AR template
-            <a onclick="javascript:$('#credit').toggle();"><img border="0" src="images/ccby.png"/></a>
-            <div style="display:none;" id="credit">[AR template available under Creative Commons CC BY 4.0 licence: 
-            <a href="https://github.com/dmsl/academic-responsive-template" target="_blank">
-                https://github.com/dmsl/academic-responsive-template 
-            </a> ]
-            </div>
-            </center>
-            </small>
-        </footer>
-        
-    </body>
-    
+            <!-- Designed by Si Chen -->
+            <!-- Modified by Liu Liu -->
+        </div><!-- 导航下主体部分container 结束 -->
+    </div><!-- 页面container 结束 -->
+  
+</body>
 </html>
+
+<!-- 
+待完成：
+
+1.扩展按钮
+2.背景纹理透明
+3.导航单词居中 
+4.panel标题栏下空隙调大
+
+-->

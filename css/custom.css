@@ -1,6 +1,15 @@
-p {
+/* p {
 	font-size: 18px;
 }
 li {
 	font-size: 16px;
+} */
+
+/* 设置logo最大最小尺寸，上留边距25px */
+.logoshow{
+	margin-top: 20px;
+	max-height: 117px;
+	width: auto;
+	max-width: 294px;
+	width: auto;
 }

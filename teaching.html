@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<!-- saved from url=(0049)http://www.acsu.buffalo.edu/~kuiren/teaching.html -->
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+        <title>Kui Ren @Zhejiang University</title>
+        <!-- Bootstrap -->
+        <!-- Custom styles for this template -->
+        <link href="./css/newcss.css" rel="stylesheet">
+        <link href="./css/navbar.css" rel="stylesheet">
+        <link href="./css/custom.css" rel="stylesheet">
+        <link href="./css/label.css" rel="stylesheet">
+        <!-- <link href="./css/bootstrap.min.css" rel="stylesheet"> -->
+        
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="./js/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="./js/bootstrap.min.js"></script>
+        <!---  <script src="js/jquery.dotdotdot.min.js"></script>-->
+        <script src="./js/Markdown.Converter.js"></script>
+        <script src="./js/jquery.scrollbox.js"></script>
+
+
+        <!-- Font Awesome Icons -->
+        <link rel="stylesheet" href="./css/font-awesome.min.css">
+        <link href="./css/custom.css" rel="stylesheet"/>
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="js/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/menucollapse.js"></script>
+        <script type="text/javascript" src="js/arrow78.js"></script>
+        <script type="text/javascript" src="js/custom.js"></script>
+    </head>
+    <script>  
+        // get markdown content  
+        var teaching_location = 'information/teaching.md';     
+        function getText(myUrl){
+            var result = null;
+            $.ajax( { url: myUrl, 
+                      type: 'get', 
+                      dataType: 'html',
+                      async: false,
+                      success: function(data) { result = data; } 
+                    }
+            );
+            FileReady = true;
+            return result;
+        }
+        var teaching_source = getText(teaching_location);
+        var converter = new Markdown.Converter();
+        $(document).ready(function(){
+          $('#teaching').html(converter.makeHtml(teaching_source));
+        })
+      </script>
+  <body>
+<div class="hr"><hr></div>
+
+     <div class="container">
+
+        <!-- 导航栏 -->
+        <div class="row">
+            <div class="navbar" role="navigation">
+                <div class="navbar-header logoshow">
+                    <img src="./images/zjulogo.png" class="img-responsive logoshape">
+                </div>
+                <ul class="nav navbar-nav navbar-left">
+                    <li><a href="index.html"><img src="./images/home.png" class="img-responsive">Home</a></li>
+                    <li><a href="research_publications.html"><img src="./images/publication.png"
+                                class="img-responsive"><narv-p>Research Publications</narv-p></a></li>
+                    <li><a href="professional_activities.html"><img src="./images/professional.png"
+                                class="img-responsive"><narv-p>Professional Activities</narv-p></a></li>
+                    <li><a href="students_alumni.html"><img src="./images/students.png" class="img-responsive">Students
+                            Alumni</a></li>
+                    <li><a href="teaching.html"><img src="./images/lecture.png" class="img-responsive">Teaching</a></li>
+                    <li><a href="https://icsr.zju.edu.cn/" target="_blank"><img src="./images/lab.png" class="img-responsive">ICSR</a></li>
+                </ul>
+            </div>
+        </div>
+        
+      <!-- Main component for a primary marketing message or call to action -->
+          <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+          <div class="row">
+
+              <div class="panel panel-primary">
+                  <div class="panel-heading">
+                      <h3 class="panel-title panel-heading-font">Teaching</h3>
+                  </div>
+              <div class="panel-body">
+
+        <div id="teaching">
+            <ul>
+            <li>Basics of Wireless and IoT Security, Zhejiang University, F'18, F'19</li>
+            <li>Wireless and IoT Security, Zhejiang University, S'18</li>
+        </ul>
+                <hr>
+
+                <ul>
+<li>CSE 241 Digital Systems, <a href="http://www.buffalo.edu/~kuiren/courses/CSE241.html">S'13</a> </li>
+<li>CSE 664 Applied Cryptography and Computer Security, <a href="http://www.acsu.buffalo.edu/~kuiren/courses/CSE664_Syllabus.pdf">S'14, S'15</a> </li>
+<li>CSE 566 Wireless Network Security, S’17</li>
+<li>CSE 706 Seminar: Security and Privacy in Internet of Things, F'16</li>
+<li>CSE 706 Seminar: Selected Topics in Privacy and Security, F'15</li>
+<li>CSE 706 Seminar: Sensing, Crowdsourcing with Smartphones and Wearable Devices, <a href="http://www.cse.buffalo.edu/shared/course_instance.php?semester=201409&amp;classnumber=12388">F'14</a> </li>
+<li>CSE 706 Seminar: Security and Privacy in Emerging Applications F'13 </li>
+<li>CSE 706 Seminar: Advanced Topics on Privacy Enhancing Technologies, F'12 </li>
+</ul>
+
+<hr>
+
+<ul>
+<li>IIT-ECE 443 Introduction to Computer Security, F'11 </li>
+<li>IIT-ECE 543 Computer Network Security, F'07, S'08, F'09, F'10, S'12 </li>
+<li>IIT-ECE 546 Wireless Security, F'08, S'10, F'09, S'11 </li>
+</ul></div>
+
+                </div>
+      </div>
+                          
+          </div>
+
+    </div> <!-- /container -->
+
+            <!-- 页脚部分 -->
+            <div class="mastfoot">
+                <div class="row">
+                    <div class="inner">
+                        <p>Copyright 2020-2030, @<a href="https://kuiren.org">Kui Ren</a>, All Rights Reserved</p>
+                    </div>
+                </div>
+            </div>
+
+  
+<div class="xl-chrome-ext-bar" id="xl_chrome_ext_{4DB361DE-01F7-4376-B494-639E489D19ED}" style="display: none;">
+      <div class="xl-chrome-ext-bar__logo"></div>
+
+      <a id="xl_chrome_ext_download" href="javascript:;" class="xl-chrome-ext-bar__option">下载视频</a>
+      <a id="xl_chrome_ext_close" href="javascript:;" class="xl-chrome-ext-bar__close"></a>
+    </div></body></html>
+
+
+

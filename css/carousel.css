@@ -1,0 +1,35 @@
+#carousel {
+  /* width:960px; */
+  height:200px;
+  position:relative;
+  clear:both;
+  overflow:hidden;
+  background:#FFF;
+  text-align: center;
+  /* margin: 20px; */
+}
+#carousel img {
+  cursor:pointer; /* otherwise it's not as obvious items can be clicked */
+  width: 300px;
+  height: auto;
+  max-height: 100px;
+  width: auto;
+  background-color: transparent;
+}
+
+.split-left {
+  width:450px;
+  float:left;
+}
+.split-right {
+  width:400px;
+  float:left;
+  margin-left:10px;
+}
+#callback-output {
+  height:250px;
+  overflow:scroll;
+}
+textarea#newoptions {
+  width:430px;
+}
