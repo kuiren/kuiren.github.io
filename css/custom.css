@@ -13,3 +13,8 @@ li {
 	max-width: 294px;
 	width: auto;
 }
+
+.best_paper{
+	color: rgb(255, 74, 61);
+	text-shadow: 0px 2px 2px rgb(235, 250, 34);
+}
