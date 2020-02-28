@@ -1,3 +1,5 @@
+* [Feb. 2020] We got one paper accepted by [DAC'20](https://dac.com/content/2020-dac-accepted-papers)
+* [Feb. 2020] We got two paper accepted by [NDSS'20](https://www.ndss-symposium.org/ndss2020/accepted-papers/)
 * [Jan. 2020] Kui has received the IEEE INFOCOM **Test of Time Paper Award** 2020!
 * [Jan. 2020] Kui is invited to serve as **Chair** of ACM SIGSAC China!
 * [Dec. 2019] We received the **Best Paper Award** from 2019 IEEE Global Communications Conference[(GLOBECOM'19)](https://globecom2019.ieee-globecom.org/program/technical-program/best-paper-awards)
@@ -14,10 +16,10 @@
 * [Aug. 2017] Kui delivered a **Keynote Talk**, titled "The Security Challenges in the Internet of Things" at [ChinaPrivacy'17](http://icds.gzu.edu.cn/ChinaPrivacy2017/)! 
 * [Jul. 2017] UbiSeC lab got one paper accepted by [CCS'17](https://www.sigsac.org/ccs/CCS2017/)
 * [Jul. 2017] UbiSeC lab received the **Best Paper Award** from [IWQoS'17](http://iwqos2017.ieee-iwqos.org/)!
+<!-- More -->
 * [Jun. 2017] Our **voice hacking protection** paper received the **Best Student Paper Award** from [ICDCS'17](http://icdcs2017.gatech.edu/)!
 * [Jun. 2017] Kui delivered a **Keynote Talk**, titled "The Security Challenges in the Internet of Things" at [IEEE DSC'17](http://ieee-dsc.org/2017/)! 
 * [Jun. 2017] UbiSeC lab got one paper accepted by [MobiCom'17](https://www.sigmobile.org/mobicom/2017/)!
-<!-- More -->
 * [May 2017] Kui delivered an **Invited Talk**, titled "The Security Challenges in the Internet of Things" at [Huawei, Shenzhen]()! 
 * [Apr. 2017] Kui receives 2017 IEEE CISTC **Technical Recognition Award**, with the citation "for outstanding contributions to cloud security and wireless security"!
 * [Mar. 2017] Congratulations to Zhan Qin, who just accepted a **tenure track assistant professor** position from the ECE Department at **University of Texas at San Antonio**!
