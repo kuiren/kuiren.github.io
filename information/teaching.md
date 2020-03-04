@@ -1,7 +1,7 @@
-* Writing Guidance, S'20
-* Introduction to Cyberspace Security, S'20
-* Basics of Wireless and IoT Security, Zhejiang University, F'18, F'19
-* Wireless and IoT Security, Zhejiang University, S'18
+* ZJU Writing Guidance, S'20
+* ZJU Introduction to Cyberspace Security, S'20
+* ZJU Basics of Wireless and IoT Security, F'18, F'19
+* ZJU Wireless and IoT Security, S'18
 
 ---
 
