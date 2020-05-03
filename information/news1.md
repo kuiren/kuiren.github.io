@@ -1,4 +1,3 @@
-Talent Recommend Award
 * [Apr. 2020] Kui received [Talent Recommend Award](http://www.zju.edu.cn/2020/0430/c32862a2092123/page.htm)
 * [Apr. 2020] We got one paper accepted by [CODASPY'20](http://www.codaspy.org/2020/accepted.html)
 * [Feb. 2020] We got one paper accepted by [DAC'20](https://dac.com/content/2020-dac-accepted-papers)
