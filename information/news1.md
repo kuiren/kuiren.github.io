@@ -1,5 +1,6 @@
 * [Jun. 2020] We received the **Best Paper Award** from the 18th ACM International Conference on Mobile Systems, Applications, and Services[(Mobisys'20)]()
 * [Apr. 2020] Kui received [Talent Recommend Award](http://www.zju.edu.cn/2020/0430/c32862a2092123/page.htm)
+* [Apr. 2020] Kui received [Guohua Distinguished Scholar Award](http://talent.zju.edu.cn/2020/0415/c31772a2070301/page.htm)
 * [Apr. 2020] We got one paper accepted by [CODASPY'20](http://www.codaspy.org/2020/accepted.html)
 * [Feb. 2020] We got one paper accepted by [DAC'20](https://dac.com/content/2020-dac-accepted-papers)
 * [Feb. 2020] We got two paper accepted by [NDSS'20](https://www.ndss-symposium.org/ndss2020/accepted-papers/)
@@ -8,6 +9,7 @@
 * [Dec. 2019] We received the **Best Paper Award** from 2019 IEEE Global Communications Conference[(GLOBECOM'19)](https://globecom2019.ieee-globecom.org/program/technical-program/best-paper-awards)
 * [Nov. 2019] Congratulations! Guangtong-Zhejiang University Cyberspace Security Joint Laboratory has been established!
 * [Nov. 2019] Kui received the **Highly Cited Researchers of the Year Award**, 2019
+* [Nov. 2019] We received the **First Place Award** from the 2019 iDASH Genome Privacy & Security Competition
 * [Oct. 2019] Congratulations! Ant Financial-Zhejiang University Financial Technology Research Center of Data Security and Privacy Protection has been established!
 * [Dec. 2018] We received the **Best Paper Award** from the 24th International Conference on Parallel and Distributed Systems[(ICPADS'18)](https://icpads.sg/)
 * [Oct. 2018] We received the **Best Paper Award** from [ChinaCrypt'18](http://sca.hainan.gov.cn/dt/xwdt/201811/t20181113_2927693.html)

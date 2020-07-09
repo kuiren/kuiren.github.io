@@ -1,8 +1,11 @@
 * Best Paper Award, Mobisys'20, Toronto, Cannada, Jun. 16-18, 2020
 * Talent Recommend Award, Zhejiang University, Apr. 29, 2020
+* Guohua Distinguished Scholar Award, Zhejiang University, Apr. 15, 2020
 * Test of Time Paper Award, 2020 IEEE INFOCOM (paper published in the 2010 proceedings of the IEEE International Conference on Computer Communications), Jan. 20, 2020
-* Best Paper Award, 2019 IEEE Global Communications Conference (GLOBECOM), Hawaii, USA, Dec. 9-13, 2019
+* First Place Award, The 2019 iDASH Genome Privacy & Security Competition, National Institute of Health (NIH) and Indiana University, 2019
+* Best Paper Award, 2019 IEEE Global Communications Conference (GLOBECOM'19'), Hawaii, USA, Dec. 9-13, 2019
 * Highly Cited Researchers of the Year Award, 2019
+* First Place Award, The 2019 iDASH Genome Privacy & Security Competition, National Institute of Health (NIH) and Indiana University, 2019
 * Best Paper Award, the 24th International Conference on Parallel and Distributed Systems(ICPADS'18), Sentosa, Singapore, Dec. 11-13, 2018
 * Best Paper Award, ChinaCrypt'18, Sichuan, China, Oct. 26-28, 2018
 * Best Paper Award, the 13th ACM ASIA Conference on Computer and Communications Security(AsiaCCS'18), Songdo, Korea, Jun. 4–8, 2018
