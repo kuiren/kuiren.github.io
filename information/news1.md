@@ -9,7 +9,7 @@
 * [Dec. 2019] We received the **Best Paper Award** from 2019 IEEE Global Communications Conference[(GLOBECOM'19)](https://globecom2019.ieee-globecom.org/program/technical-program/best-paper-awards)
 * [Nov. 2019] Congratulations! Guangtong-Zhejiang University Cyberspace Security Joint Laboratory has been established!
 * [Nov. 2019] Kui received the **Highly Cited Researchers of the Year Award**, 2019
-* [Nov. 2019] We received the **First Place Award** from the 2019 iDASH Genome Privacy & Security Competition
+* [Nov. 2019] We received the **First Place Award** from the [2019 iDASH Genome Privacy & Security Competition](http://www.humangenomeprivacy.org/2019/index.html)
 * [Oct. 2019] Congratulations! Ant Financial-Zhejiang University Financial Technology Research Center of Data Security and Privacy Protection has been established!
 * [Dec. 2018] We received the **Best Paper Award** from the 24th International Conference on Parallel and Distributed Systems[(ICPADS'18)](https://icpads.sg/)
 * [Oct. 2018] We received the **Best Paper Award** from [ChinaCrypt'18](http://sca.hainan.gov.cn/dt/xwdt/201811/t20181113_2927693.html)
