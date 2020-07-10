@@ -1,13 +1,13 @@
-* Best Paper Award, Mobisys'20, Toronto, Cannada, Jun. 16-18, 2020
+* Best Paper Award, The 18th Annual ACM International Conference on Mobile Systems, Applications, and Services (MobiSys’ 20), Toronto, Cannada, Jun. 16-18, 2020
 * Talent Recommend Award, Zhejiang University, Apr. 29, 2020
 * Guohua Distinguished Scholar Award, Zhejiang University, Apr. 15, 2020
-* Test of Time Paper Award, 2020 IEEE INFOCOM (paper published in the 2010 proceedings of the IEEE International Conference on Computer Communications), Jan. 20, 2020
+* Test of Time Paper Award, The 39th IEEE International Conference on Computer Communications(INFOCOM’ 20), Jan. 20, 2020
 * First Place Award, The 2019 iDASH Genome Privacy & Security Competition, National Institute of Health (NIH) and Indiana University, 2019
-* Best Paper Award, 2019 IEEE Global Communications Conference (GLOBECOM'19'), Hawaii, USA, Dec. 9-13, 2019
-* Highly Cited Researchers of the Year Award, 2019
-* First Place Award, The 2019 iDASH Genome Privacy & Security Competition, National Institute of Health (NIH) and Indiana University, 2019
-* Best Paper Award, the 24th International Conference on Parallel and Distributed Systems(ICPADS'18), Sentosa, Singapore, Dec. 11-13, 2018
-* Best Paper Award, ChinaCrypt'18, Sichuan, China, Oct. 26-28, 2018
+* Best Paper Award, the 2019 IEEE Global Communications Conference (Globecom’19), Hawaii, USA, Dec. 9-13, 2019
+* Highly Cited Researcher, Web of Science Group, 2019
+* First Place Award, the 2019 iDASH Genome Privacy & Security Competition, National Institute of Health (NIH) and Indiana University, 2019
+* Best Paper Award, the 24th International Conference on Parallel and Distributed Systems(ICPADS’ 18), Sentosa, Singapore, Dec. 11-13, 2018
+* Best Paper Award, the Chinese Cryptology Association(ChinaCrypt’18), Sichuan, China, Oct. 26-28, 2018
 * Best Paper Award, the 13th ACM ASIA Conference on Computer and Communications Security(AsiaCCS'18), Songdo, Korea, Jun. 4–8, 2018
 * SUNY Empire Innovation Professor, University at Buffalo, State University of New York, 2017
 * Best Paper Award, IEEE/ACM International Symposium on Quality of Service (IWQoS'17), Vilanova, Barcelona, Spain, June 14-16, 2017

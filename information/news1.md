@@ -4,15 +4,15 @@
 * [Apr. 2020] We got one paper accepted by [CODASPY'20](http://www.codaspy.org/2020/accepted.html)
 * [Feb. 2020] We got one paper accepted by [DAC'20](https://dac.com/content/2020-dac-accepted-papers)
 * [Feb. 2020] We got two paper accepted by [NDSS'20](https://www.ndss-symposium.org/ndss2020/accepted-papers/)
-* [Jan. 2020] Kui has received the IEEE INFOCOM **Test of Time Paper Award** 2020!
+* [Jan. 2020] Kui has received the **Test of Time Paper Award** from the 39th IEEE International Conference on Computer Communications[(INFOCOM’ 20)](https://infocom2020.ieee-infocom.org/awards)!
 * [Jan. 2020] Kui is invited to serve as **Chair** of ACM SIGSAC China!
-* [Dec. 2019] We received the **Best Paper Award** from 2019 IEEE Global Communications Conference[(GLOBECOM'19)](https://globecom2019.ieee-globecom.org/program/technical-program/best-paper-awards)
+* [Dec. 2019] We received the **Best Paper Award** from the 2019 IEEE Global Communications Conference[(GLOBECOM'19)](https://globecom2019.ieee-globecom.org/program/technical-program/best-paper-awards)
 * [Nov. 2019] Congratulations! Guangtong-Zhejiang University Cyberspace Security Joint Laboratory has been established!
-* [Nov. 2019] Kui received the **Highly Cited Researchers of the Year Award**, 2019
+* [Nov. 2019] Kui received the **Highly Cited Researchers Award**, 2019
 * [Nov. 2019] We received the **First Place Award** from the [2019 iDASH Genome Privacy & Security Competition](http://www.humangenomeprivacy.org/2019/index.html)
 * [Oct. 2019] Congratulations! Ant Financial-Zhejiang University Financial Technology Research Center of Data Security and Privacy Protection has been established!
 * [Dec. 2018] We received the **Best Paper Award** from the 24th International Conference on Parallel and Distributed Systems[(ICPADS'18)](https://icpads.sg/)
-* [Oct. 2018] We received the **Best Paper Award** from [ChinaCrypt'18](http://sca.hainan.gov.cn/dt/xwdt/201811/t20181113_2927693.html)
+* [Oct. 2018] We received the **Best Paper Award** from the Chinese Cryptology Association[(ChinaCrypt'18)](http://sca.hainan.gov.cn/dt/xwdt/201811/t20181113_2927693.html)
 * [Jun. 2018] Congratulations! Alibaba-Zhejiang University Joint Research Institute of Frontier Technologies(AZFT) has been established!
 * [Jun. 2018] We received the **Best Paper Award** from the 2018 Asia Conference on Computer and Communications Security[(AsiaCCS’18)](http://asiaccs2018.org/)
 * [Aug. 2017] Kui is named **SUNY Empire Innovation Professor** by University at Buffalo, State University of New York! 
