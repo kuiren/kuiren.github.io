@@ -16,12 +16,12 @@
 * [Jun. 2018] Congratulations! Alibaba-Zhejiang University Joint Research Institute of Frontier Technologies(AZFT) has been established!
 * [Jun. 2018] We received the **Best Paper Award** from the 2018 Asia Conference on Computer and Communications Security[(AsiaCCS’18)](http://asiaccs2018.org/)
 * [Aug. 2017] Kui is named **SUNY Empire Innovation Professor** by University at Buffalo, State University of New York! 
+<!-- More -->
 * [Aug. 2017] Our research on **voice hacking protection** has been widely reported by the media, including CBS News, Scientific American, ACM TechNews, The Conversation, etc.! 
 * [Aug. 2017] Kui is invited to join the steering committee of ACM Asia Conference on Computer and Communications Security (AsiaCCS)! 
 * [Aug. 2017] Kui delivered a **Keynote Talk**, titled "The Security Challenges in the Internet of Things" at [ChinaPrivacy'17](http://icds.gzu.edu.cn/ChinaPrivacy2017/)! 
 * [Jul. 2017] UbiSeC lab got one paper accepted by [CCS'17](https://www.sigsac.org/ccs/CCS2017/)
 * [Jul. 2017] UbiSeC lab received the **Best Paper Award** from [IWQoS'17](http://iwqos2017.ieee-iwqos.org/)!
-<!-- More -->
 * [Jun. 2017] Our **voice hacking protection** paper received the **Best Student Paper Award** from [ICDCS'17](http://icdcs2017.gatech.edu/)!
 * [Jun. 2017] Kui delivered a **Keynote Talk**, titled "The Security Challenges in the Internet of Things" at [IEEE DSC'17](http://ieee-dsc.org/2017/)! 
 * [Jun. 2017] UbiSeC lab got one paper accepted by [MobiCom'17](https://www.sigmobile.org/mobicom/2017/)!
