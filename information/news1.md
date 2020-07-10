@@ -1,6 +1,6 @@
 * [Jun. 2020] We received the **Best Paper Award** from the 18th ACM International Conference on Mobile Systems, Applications, and Services[(Mobisys'20)]()
-* [Jun. 2020] Kui delivered an **Keynote Talk**, titled "Blockchain and Data Security: Recent Advances and Perspectives" at **Yangtze River Delta Forum on Science and Technology**, Jun. 19, 2020!
-* [May 2020] Kui delivered an **Keynote Talk**, titled "Encrypted Database: Recent Advances and Perspectives" at **China Computer Federation Symposium on Frontiers in Database**, May 30, 2020!
+* [Jun. 2020] Kui delivered a **Keynote Talk**, titled "Blockchain and Data Security: Recent Advances and Perspectives" at **Yangtze River Delta Forum on Science and Technology**, Jun. 19, 2020!
+* [May 2020] Kui delivered a **Keynote Talk**, titled "Encrypted Database: Recent Advances and Perspectives" at **China Computer Federation Symposium on Frontiers in Database**, May 30, 2020!
 * [Apr. 2020] Kui received [Talent Recommend Award](http://www.zju.edu.cn/2020/0430/c32862a2092123/page.htm)
 * [Apr. 2020] Kui received [Guohua Distinguished Scholar Award](http://talent.zju.edu.cn/2020/0415/c31772a2070301/page.htm)
 * [Apr. 2020] We got one paper accepted by [CODASPY'20](http://www.codaspy.org/2020/accepted.html)
@@ -13,18 +13,18 @@
 * [Nov. 2019] Congratulations! Guangtong-Zhejiang University Cyberspace Security Joint Laboratory has been established!
 * [Nov. 2019] Kui received the **Highly Cited Researchers Award**, 2019
 * [Nov. 2019] We received the **First Place Award** from the [2019 iDASH Genome Privacy & Security Competition](http://www.humangenomeprivacy.org/2019/index.html)
-* [Oct. 2019] Kui delivered an **Keynote Talk**, titled "Recent advancements of IoT security" at **13th Chinese Conference on Trusted Computing and Information Security**, Shanghai, Oct. 24-27, 2019!
-* [Oct. 2019] Kui delivered an **Keynote Talk**, titled "LightBox: Full-stack Protected Stateful Middlebox at Lightning Speed" at **China National Computer Congress 2019**, Suzhou, Oct. 17, 2019!
+* [Oct. 2019] Kui delivered a **Keynote Talk**, titled "Recent advancements of IoT security" at **13th Chinese Conference on Trusted Computing and Information Security**, Shanghai, Oct. 24-27, 2019!
+* [Oct. 2019] Kui delivered a **Keynote Talk**, titled "LightBox: Full-stack Protected Stateful Middlebox at Lightning Speed" at **China National Computer Congress 2019**, Suzhou, Oct. 17, 2019!
 * [Oct. 2019] Congratulations! Ant Financial-Zhejiang University Financial Technology Research Center of Data Security and Privacy Protection has been established!
 * [Jul. 2019] Kui delivered an **Invited Talk**, titled "Current status and development of data security strategy" at **Alibaba Data Summit**, Hangzhou, Jul. 31, 2019
 <!-- More -->
-* [Apr. 2019] Kui delivered an **Keynote Talk**, titled "Innovation in IoT security: From Continuous Biometrics to Trustworthy Manufacturing" at **The 2019 China Computer Federation Forum on Smart Internet of Things and Intelligent Computing**, Nanjing, Apr. 20-21, 2019
-* [Mar. 2019] Kui delivered an **Keynote Talk**, titled "Security and Privacy Challenges in the Internet of Things" at **The 17th IEEEConference on Pervasive Computing and Communications (PERCOM) Workshops**, Kyoto, Japan, Mar. 11-15, 2019
+* [Apr. 2019] Kui delivered a **Keynote Talk**, titled "Innovation in IoT security: From Continuous Biometrics to Trustworthy Manufacturing" at **The 2019 China Computer Federation Forum on Smart Internet of Things and Intelligent Computing**, Nanjing, Apr. 20-21, 2019
+* [Mar. 2019] Kui delivered a **Keynote Talk**, titled "Security and Privacy Challenges in the Internet of Things" at **The 17th IEEEConference on Pervasive Computing and Communications (PERCOM) Workshops**, Kyoto, Japan, Mar. 11-15, 2019
 * [Dec. 2018] We received the **Best Paper Award** from the 24th International Conference on Parallel and Distributed Systems[(ICPADS'18)](https://icpads.sg/)
 * [Oct. 2018] We received the **Best Paper Award** from the Chinese Cryptology Association[(ChinaCrypt'18)](http://sca.hainan.gov.cn/dt/xwdt/201811/t20181113_2927693.html)
 * [Jun. 2018] Congratulations! Alibaba-Zhejiang University Joint Research Institute of Frontier Technologies(AZFT) has been established!
-* [Jun. 2018] Kui delivered an **Keynote Talk**, titled "Data Security: The state of the Art" at **The 2018 China Computer Federation Global Artificial Intelligence and Robotics Summit (CCF-GAIR)**, Shenzhen, Jun. 29, 2018
-* [Jun. 2018] Kui delivered an **Keynote Talk**, titled "Attributing Pictures to Smartphones via Camera Fingerprinting" at **The 26th IEEE/ACM International Symposium on Quality of Service (IWQoS’18)**, Banff, Canada, Jun. 4-6, 2018
+* [Jun. 2018] Kui delivered a **Keynote Talk**, titled "Data Security: The state of the Art" at **The 2018 China Computer Federation Global Artificial Intelligence and Robotics Summit (CCF-GAIR)**, Shenzhen, Jun. 29, 2018
+* [Jun. 2018] Kui delivered a **Keynote Talk**, titled "Attributing Pictures to Smartphones via Camera Fingerprinting" at **The 26th IEEE/ACM International Symposium on Quality of Service (IWQoS’18)**, Banff, Canada, Jun. 4-6, 2018
 * [Jun. 2018] We received the **Best Paper Award** from the 2018 Asia Conference on Computer and Communications Security[(AsiaCCS’18)](http://asiaccs2018.org/)
 * [Aug. 2017] Kui is named **SUNY Empire Innovation Professor** by University at Buffalo, State University of New York! 
 * [Aug. 2017] Our research on **voice hacking protection** has been widely reported by the media, including CBS News, Scientific American, ACM TechNews, The Conversation, etc.! 
