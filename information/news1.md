@@ -17,6 +17,7 @@
 * [Oct. 2019] Kui delivered an **Keynote Talk**, titled "LightBox: Full-stack Protected Stateful Middlebox at Lightning Speed" at **China National Computer Congress 2019**, Suzhou, Oct. 17, 2019!
 * [Oct. 2019] Congratulations! Ant Financial-Zhejiang University Financial Technology Research Center of Data Security and Privacy Protection has been established!
 * [Jul. 2019] Kui delivered an **Invited Talk**, titled "Current status and development of data security strategy" at **Alibaba Data Summit**, Hangzhou, Jul. 31, 2019
+<!-- More -->
 * [Apr. 2019] Kui delivered an **Keynote Talk**, titled "Innovation in IoT security: From Continuous Biometrics to Trustworthy Manufacturing" at **The 2019 China Computer Federation Forum on Smart Internet of Things and Intelligent Computing**, Nanjing, Apr. 20-21, 2019
 * [Mar. 2019] Kui delivered an **Keynote Talk**, titled "Security and Privacy Challenges in the Internet of Things" at **The 17th IEEEConference on Pervasive Computing and Communications (PERCOM) Workshops**, Kyoto, Japan, Mar. 11-15, 2019
 * [Dec. 2018] We received the **Best Paper Award** from the 24th International Conference on Parallel and Distributed Systems[(ICPADS'18)](https://icpads.sg/)
@@ -25,7 +26,6 @@
 * [Jun. 2018] Kui delivered an **Keynote Talk**, titled "Data Security: The state of the Art" at **The 2018 China Computer Federation Global Artificial Intelligence and Robotics Summit (CCF-GAIR)**, Shenzhen, Jun. 29, 2018
 * [Jun. 2018] Kui delivered an **Keynote Talk**, titled "Attributing Pictures to Smartphones via Camera Fingerprinting" at **The 26th IEEE/ACM International Symposium on Quality of Service (IWQoS’18)**, Banff, Canada, Jun. 4-6, 2018
 * [Jun. 2018] We received the **Best Paper Award** from the 2018 Asia Conference on Computer and Communications Security[(AsiaCCS’18)](http://asiaccs2018.org/)
-<!-- More -->
 * [Aug. 2017] Kui is named **SUNY Empire Innovation Professor** by University at Buffalo, State University of New York! 
 * [Aug. 2017] Our research on **voice hacking protection** has been widely reported by the media, including CBS News, Scientific American, ACM TechNews, The Conversation, etc.! 
 * [Aug. 2017] Kui is invited to join the steering committee of ACM Asia Conference on Computer and Communications Security (AsiaCCS)! 
