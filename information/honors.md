@@ -25,6 +25,6 @@
 * Board Member, Internet Privacy Task Force, State of Illinois (Appointed by Then-Governor Pat Quinn), 2011-2012 
 * Best Paper Award, the 4th International ICST Conference on Communications and Networking in China (Chinacom'09), Xi'an, China, Aug. 26-28, 2009 
 * Best Paper Award, International Conference on Wireless Algorithms, Systems, and Applications (WASA'06), Xi'an, China, Aug. 15-18, 2006
-
+* Institute Fellowship, Worcester Polytechnic Institute, 2005
 
 <!-- This is for honors -->
