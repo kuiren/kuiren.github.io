@@ -5,13 +5,14 @@
 * First Place Award, The 2019 iDASH Genome Privacy & Security Competition, National Institute of Health (NIH) and Indiana University, 2019
 * Best Paper Award, the 2019 IEEE Global Communications Conference (Globecom’19), Hawaii, USA, Dec. 9-13, 2019
 * Highly Cited Researcher, Web of Science Group, 2019
-* First Place Award, the 2019 iDASH Genome Privacy & Security Competition, National Institute of Health (NIH) and Indiana University, 2019
 * Best Paper Award, the 24th International Conference on Parallel and Distributed Systems(ICPADS’ 18), Sentosa, Singapore, Dec. 11-13, 2018
 * Best Paper Award, the Chinese Cryptology Association(ChinaCrypt’18), Sichuan, China, Oct. 26-28, 2018
 * Best Paper Award, the 13th ACM ASIA Conference on Computer and Communications Security(AsiaCCS'18), Songdo, Korea, Jun. 4–8, 2018
 * SUNY Empire Innovation Professor, University at Buffalo, State University of New York, 2017
 * Best Paper Award, IEEE/ACM International Symposium on Quality of Service (IWQoS'17), Vilanova, Barcelona, Spain, June 14-16, 2017
+* SUNY Chancellor’s Award for Excellence in Scholarship and Creative Activities, State University of New York at Buffalo, 2017
 * Best Student Paper Award, The 37th IEEE International Conference on Distributed Computing Systems (ICDCS'17), Atlanta, GA, June 5-8, 2017
+* ACM Distinguished Member for Outstanding Scientific Contributions to Computing, 2017
 * Technical Recognition Award, IEEE Communications & Information Security Technical Committee (CISTC), 2017
 * Exceptional Scholar Award for Sustained Achievement, State University of New York, Buffalo, 2016
 * Fellow of IEEE (elevated within 8 years after his Ph.D, one of the quickest in IEEE history), 2015

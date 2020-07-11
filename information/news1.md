@@ -32,6 +32,7 @@
 * [Aug. 2017] Kui delivered a **Keynote Talk**, titled "The Security Challenges in the Internet of Things" at [ChinaPrivacy'17](http://icds.gzu.edu.cn/ChinaPrivacy2017/)! 
 * [Jul. 2017] UbiSeC lab got one paper accepted by [CCS'17](https://www.sigsac.org/ccs/CCS2017/)
 * [Jul. 2017] UbiSeC lab received the **Best Paper Award** from [IWQoS'17](http://iwqos2017.ieee-iwqos.org/)!
+* [2017] Kui received SUNY Chancellor’s Award for Excellence in Scholarship and Creative Activities, State University of New York at Buffalo!
 * [Jun. 2017] Our **voice hacking protection** paper received the **Best Student Paper Award** from [ICDCS'17](http://icdcs2017.gatech.edu/)!
 * [Jun. 2017] Kui delivered a **Keynote Talk**, titled "The Security Challenges in the Internet of Things" at [IEEE DSC'17](http://ieee-dsc.org/2017/)! 
 * [Jun. 2017] UbiSeC lab got one paper accepted by [MobiCom'17](https://www.sigmobile.org/mobicom/2017/)!
@@ -40,6 +41,7 @@
 * [Mar. 2017] Congratulations to Zhan Qin, who just accepted a **tenure track assistant professor** position from the ECE Department at **University of Texas at San Antonio**!
 * [Mar. 2017] Kui is invited to serve as an **Associate Editor** for **IEEE Transactions on Service Computing** (TSC)!
 * [Feb. 2017] UbiSeC lab got two full papers and two short papers accepted by [ICDCS'17](http://icdcs2017.gatech.edu/)!
+* [2017] Kui is named ACM Distinguished Member for Outstanding Scientific Contributions to Computing, 2017
 * [Feb. 2017] Kui delivered an **Invited Talk**, titled "Exploring Smartphone-based Side-channel Attacks Against 3D Printers" at **Tohoku University**, Sendai, Japan, Feb. 22, 2017! 
 * [Jan. 2017] Congratulations to Zhan Qin, who just won the "**Best Graduate Research Award**" from the CSE Dept. at UB!
 * [Jan. 2017] UbiSeC lab got one paper accepted by [FC'17](http://fc17.ifca.ai/)!
