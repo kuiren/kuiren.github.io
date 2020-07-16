@@ -1,3 +1,4 @@
+* [Jul. 2020] Our research on **smartphone eavesdropping attack** has been widely reported by the media, including [CCTV-2](https://baijiahao.baidu.com/s?id=1671933556257751326&wfr=spider&for=pc), [China Daily](https://mp.weixin.qq.com/s/_cAOqJLk4a2_oTWiA8wKIA), etc.! 
 * [Jun. 2020] We received the **Best Paper Award** from the 18th ACM International Conference on Mobile Systems, Applications, and Services[(Mobisys'20)]()
 * [Jun. 2020] Kui delivered a **Keynote Talk**, titled "Blockchain and Data Security: Recent Advances and Perspectives" at **Yangtze River Delta Forum on Science and Technology**, Jun. 19, 2020!
 * [May 2020] Kui delivered a **Keynote Talk**, titled "Encrypted Database: Recent Advances and Perspectives" at **China Computer Federation Symposium on Frontiers in Database**, May 30, 2020!
