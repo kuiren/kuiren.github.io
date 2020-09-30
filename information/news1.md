@@ -2,7 +2,7 @@
 * [Jun. 2020] We received the **Best Paper Award** from the 18th ACM International Conference on Mobile Systems, Applications, and Services[(Mobisys'20)]()
 * [Jun. 2020] Kui delivered a **Keynote Talk**, titled "Blockchain and Data Security: Recent Advances and Perspectives" at **Yangtze River Delta Forum on Science and Technology**, Jun. 19, 2020!
 * [May 2020] Kui delivered a **Keynote Talk**, titled "Encrypted Database: Recent Advances and Perspectives" at **China Computer Federation Symposium on Frontiers in Database**, May 30, 2020!
-* [Apr. 2020] Kui received [Talent Recommend Award](http://www.zju.edu.cn/2020/0430/c32862a2092123/page.htm)
+<!-- * [Apr. 2020] Kui received [Talent Recommend Award](http://www.zju.edu.cn/2020/0430/c32862a2092123/page.htm)--> 
 * [Apr. 2020] Kui received [Guohua Distinguished Scholar Award](http://talent.zju.edu.cn/2020/0415/c31772a2070301/page.htm)
 * [Apr. 2020] We got one paper accepted by the 10th ACM Conference on Data and Application Security and Privacy 2020[(CODASPY'20)](http://www.codaspy.org/2020/accepted.html)
 * [Feb. 2020] We got one paper accepted by the 57th Annual Design Automation Conference 2020[(DAC'20)](https://dac.com/content/2020-dac-accepted-papers)

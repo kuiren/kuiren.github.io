@@ -1,5 +1,5 @@
 * Best Paper Award, The 18th Annual ACM International Conference on Mobile Systems, Applications, and Services (MobiSys’ 20), Toronto, Cannada, Jun. 16-18, 2020
-* Talent Recommend Award, Zhejiang University, Apr. 29, 2020
+<!-- * Talent Recommend Award, Zhejiang University, Apr. 29, 2020 -->
 * Guohua Distinguished Scholar Award, Zhejiang University, Apr. 15, 2020
 * Test of Time Paper Award, The 39th IEEE International Conference on Computer Communications(INFOCOM’ 20), Jan. 20, 2020
 * First Place Award, The 2019 iDASH Genome Privacy & Security Competition, National Institute of Health (NIH) and Indiana University, 2019
