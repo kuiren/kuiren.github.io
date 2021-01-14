@@ -1,4 +1,4 @@
-* Fellow of ACM , Jan, 14, 2021
+* Fellow of ACM , for contributions to "wireless system security and cloud data security", Jan, 14, 2021
 * Best Paper Award, the 40th IEEE International Conference on Distributed Computing Systems(ICDCS'20), Singapore, Nov. 29 - Dec.1, 2020
 The 18th Annual ACM International Conference on Mobile Systems, Applications, and Services (MobiSys'20), Toronto, Cannada, Jun. 16-18, 2020
 * Best Paper Award, the 18th Annual ACM International Conference on Mobile Systems, Applications, and Services (MobiSys'20), Toronto, Cannada, Jun. 16-18, 2020
