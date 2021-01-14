@@ -1,4 +1,4 @@
-* [Jan. 2021] Kui is elevated to **Fellow of ACM** For contributions to "wireless system security and cloud data security"[link](https://www.acm.org/media-center/2021/january/fellows-2020)!
+* [Jan. 2021] Kui is elevated to **Fellow of ACM** For contributions to "wireless system security and cloud data security"([link])(https://www.acm.org/media-center/2021/january/fellows-2020)!
 * [Nov. 2020] We received the **Best Paper Award** from the 40th IEEE International Conference on Distributed 
 * [Sep. 2020] Kui delivered a **Keynote Talk**, titled "AI Security White Paper" at **INCLUSION · Fintech Conference**, Sep 24 to 26, 2020 Expo Area, Shanghai, China!
 Computing Systems[(ICDCS'20)](https://icdcs2020.sg/index.html)
