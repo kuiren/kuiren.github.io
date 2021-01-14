@@ -1,6 +1,6 @@
 * [Jan. 2021] Kui is elevated to **Fellow of ACM** for contributions to "wireless system security and cloud data security"([link])(https://www.acm.org/media-center/2021/january/fellows-2020)!
 * [Nov. 2020] We received the **Best Paper Award** from the 40th IEEE International Conference on Distributed Computing Systems [(ICDCS'20)](https://icdcs2020.sg/cfp.html)
-* [Sep. 2020] Kui delivered a **Keynote Talk**, titled "AI Security White Paper" at **INCLUSION · Fintech Conference**, Sep. 24 - 26, 2020 Expo Area, Shanghai, China!
+* [Sep. 2020] Kui delivered a **Keynote Talk**, titled "AI Security White Paper" at **INCLUSION · Fintech Conference**, Expo Area, Shanghai, China, Sep. 24 - 26, 2020!
 * [Jul. 2020] Our research work on **accelerometer-based smartphone eavesdropping** is reported by a large number of public media outlets, including [CCTV-2](https://mp.weixin.qq.com/s/9iKndfHd2fNz9SGpYjYXCA), [China Daily](https://mp.weixin.qq.com/s/_cAOqJLk4a2_oTWiA8wKIA), [Xinhuanet](http://www.xinhuanet.com/tech/2020-03/25/c_1125763230.htm), and [Science and Technology Daily](http://digitalpaper.stdaily.com/http_www.kjrb.com/kjrb/html/2020-03/25/content_442131.htm).
 * [Jun. 2020] We received the **Best Paper Award** from the 18th ACM International Conference on Mobile Systems, Applications, and Services[(Mobisys'20)]()
 * [Jun. 2020] Kui delivered a **Keynote Talk**, titled "Blockchain and Data Security: Recent Advances and Perspectives" at **Yangtze River Delta Forum on Science and Technology**, Jun. 19, 2020!
