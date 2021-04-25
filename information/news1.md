@@ -1,6 +1,8 @@
 * [Jan. 2021] Kui is elevated to **Fellow of ACM** for contributions to "wireless system security and cloud data security"([link](https://www.acm.org/media-center/2021/january/fellows-2020))!
 * [Nov. 2020] We received the **Best Paper Award** from the 40th IEEE International Conference on Distributed Computing Systems [(ICDCS'20)](https://icdcs2020.sg/cfp.html)
+* [Nov. 2020] Kui has been named on the [Highly Cited Researchers 2020 list](https://recognition.webofscience.com/awards/highly-cited/2020/) by Clarivate, 2020
 * [Sep. 2020] Kui delivered a **Keynote Talk**, titled "AI Security White Paper" at **INCLUSION · Fintech Conference**, Expo Area, Shanghai, China, Sep. 24 - 26, 2020!
+* [Mar. 2020] Kui received [AI 2000 Most Influential Scholar Award Honorable Mention](https://www.aminer.cn/ai2000/sap), in recognition of outstanding and vibrant contributions in the field of Security and Privacy between 2009 and 2019, AMiner, 2020
 * [Jul. 2020] Our research work on **accelerometer-based smartphone eavesdropping** is reported by a large number of public media outlets, including [CCTV-2](https://mp.weixin.qq.com/s/9iKndfHd2fNz9SGpYjYXCA), [China Daily](https://mp.weixin.qq.com/s/_cAOqJLk4a2_oTWiA8wKIA), [Xinhuanet](http://www.xinhuanet.com/tech/2020-03/25/c_1125763230.htm), and [Science and Technology Daily](http://digitalpaper.stdaily.com/http_www.kjrb.com/kjrb/html/2020-03/25/content_442131.htm).
 * [Jun. 2020] We received the **Best Paper Award** from the 18th ACM International Conference on Mobile Systems, Applications, and Services[(Mobisys'20)]()
 * [Jun. 2020] Kui delivered a **Keynote Talk**, titled "Blockchain and Data Security: Recent Advances and Perspectives" at **Yangtze River Delta Forum on Science and Technology**, Jun. 19, 2020!
@@ -15,7 +17,7 @@
 * [Dec. 2019] Kui delivered an **Invited Talk**, titled "Innovation in IoT security: From Continuous Biometrics to Trustworthy Manufacturing" at **National Institute of Informatics**, Tokyo, Japan, Dec. 20, 2019
 * [Dec. 2019] We received the **Best Paper Award** from the 2019 IEEE Global Communications Conference[(GLOBECOM'19)](https://globecom2019.ieee-globecom.org/program/technical-program/best-paper-awards)
 * [Nov. 2019] Congratulations! Guangtong-Zhejiang University Cyberspace Security Joint Laboratory has been established!
-* [Nov. 2019] Kui received the **Highly Cited Researchers Award**, 2019
+* [Nov. 2019] Kui has been named on the [Highly Cited Researchers 2019 list](https://recognition.webofscience.com/awards/highly-cited/2019/) by Clarivate, 2019
 * [Nov. 2019] We received the **First Place Award** from the [2019 iDASH Genome Privacy & Security Competition](http://www.humangenomeprivacy.org/2019/index.html)
 * [Oct. 2019] Kui delivered a **Keynote Talk**, titled "Recent advancements of IoT security" at **13th Chinese Conference on Trusted Computing and Information Security**, Shanghai, Oct. 24-27, 2019!
 * [Oct. 2019] Kui delivered a **Keynote Talk**, titled "LightBox: Full-stack Protected Stateful Middlebox at Lightning Speed" at **China National Computer Congress 2019**, Suzhou, Oct. 17, 2019!

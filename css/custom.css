@@ -18,3 +18,9 @@ li {
 	color: rgb(255, 74, 61);
 	text-shadow: 0px 2px 2px rgb(235, 250, 34);
 }
+
+.title{
+	/* color:rgb(6, 6, 77) */
+	font-weight: bold;
+	/* text-shadow: 0px 2px 2px rgb(6, 6, 77); */
+}
